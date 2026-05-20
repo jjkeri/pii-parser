@@ -36,4 +36,4 @@ safe = clean_case(raw)
 
 ## Status
 
-Active — used internally as part of a Claude AI support workflow at Cornerstone OnDemand.
+Active. Used internally as part of a Claude AI support workflow at Cornerstone OnDemand.
