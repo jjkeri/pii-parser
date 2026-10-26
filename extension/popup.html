@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>PII Parser</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <h1>PII Parser</h1>
+  <label for="input">Paste text</label>
+  <textarea id="input" placeholder="Paste text containing PII…" spellcheck="false"></textarea>
+  <div class="row">
+    <button id="clean" type="button">Clean</button>
+    <span class="hint">Runs locally — nothing leaves your browser.</span>
+  </div>
+  <label for="output">Cleaned output</label>
+  <textarea id="output" readonly></textarea>
+  <div class="row">
+    <button id="copy" type="button" class="secondary">Copy</button>
+  </div>
+  <script type="module" src="popup.js"></script>
+</body>
+</html>
