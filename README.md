@@ -28,11 +28,16 @@ safe = clean_case(raw)
 # Output: "Customer [NAME] ([EMAIL], [PHONE]) reported login failure."
 ```
 
+## Chrome extension
+
+A Manifest V3 Chrome extension (popup + right-click "Redact PII"), running fully locally, lives in
+`extension/`. See [extension/README.md](extension/README.md).
+
 ## Stack
 
 - Python 3.10+
 - `re` (stdlib regex)
-- Configurable via `config.json`
+- Not configurable yet: the `config.json` mentioned in earlier versions is not implemented
 
 ## Status
 
